@@ -34,6 +34,7 @@ main .card-container {
     margin: auto;
     display: flex;
     flex-shrink: 1;
+    flex-wrap: wrap;
 }
 
 main .card {
@@ -52,7 +53,6 @@ main .card-txt {
 
 main .card-img {
     flex-basis: calc(100% / 7);
-    flex-wrap: wrap;
 }
 
 footer .footer-bg {
@@ -60,6 +60,7 @@ footer .footer-bg {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-shrink: 0;
 }
 
 footer .footer-row {
