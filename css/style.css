@@ -8,6 +8,7 @@
 .container {
     display: flex;
     flex-direction: column;
+    background-color: #060606;
 }
 
 header .nav-bar {
@@ -17,7 +18,7 @@ header .nav-bar {
 header .nav-items {
     display: flex;
     justify-content: flex-end;
-    align-items: top;
+    flex-shrink: 0;
     padding-bottom: 2rem;
 }
 
@@ -27,3 +28,29 @@ header .nav-items .item {
     margin: 0.5rem;
     background-color: #4A4A4A;
 }
+
+main .card-container {
+    max-width: 80%;
+    margin: auto;
+}
+
+main .card {
+    display: flex;
+    position: relative;
+    flex-grow: calc(100% / 7);
+    flex-wrap: wrap;
+}
+
+main .card-txt {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 0.5rem;
+    background-color: rgba(0,0,0,0.5);
+}
+
+/* main .card-img {
+    flex-grow: calc(100% / 7);
+    flex-wrap: wrap;
+}
+ */
