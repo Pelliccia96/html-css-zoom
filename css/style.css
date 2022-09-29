@@ -71,6 +71,7 @@ footer .footer-row {
 
 footer .footer-item {
     padding-right: 1rem;
+    text-align: center;
 }
 
 footer .footer-item i {
@@ -87,7 +88,19 @@ footer .footer-bar {
 }
 
 #exit {
-    background-color: #4A4A4A;
-    padding: 1rem;
+    padding: 1.5rem;
     color: red;
+}
+
+#padding-chev {
+    padding-right: 1rem;
+}
+
+#bg-exit {
+    background-color: #4A4A4A;
+    padding: 1.5rem 0;
+}
+
+footer .footer-row.display-fix {
+    display: inline-block;
 }
