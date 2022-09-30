@@ -119,5 +119,5 @@ footer .footer-bar {
 
 footer .footer-row.display-fix {
     display: flex;
-    padding-right: 1.5rem;
+    padding-left: 1.5rem;
 }
